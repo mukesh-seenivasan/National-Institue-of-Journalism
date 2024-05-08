@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Horizontal Slider Cards</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		/* Adjusting scrollbar style */
+		::-webkit-scrollbar {
+			height: 8px;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background-color: rgba(0, 0, 0, .1);
+			border-radius: 10px;
+		}
+
+		::-webkit-scrollbar-track {
+			background-color: transparent;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="card-container d-flex flex-nowrap">
+								<!-- Cards -->
+								<div class="card m-2" style="width: 18rem;">
+									<img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Card 1</h5>
+										<p class="card-text">Some quick example text to build on the card title and make
+											up the bulk of the card's content.</p>
+									</div>
+								</div>
+								<!-- Repeat the card structure for additional cards -->
+								<div class="card m-2" style="width: 18rem;">
+									<img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Card 2</h5>
+										<p class="card-text">Some quick example text to build on the card title and make
+											up the bulk of the card's content.</p>
+									</div>
+								</div>
+								<div class="card m-2" style="width: 18rem;">
+									<img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Card 2</h5>
+										<p class="card-text">Some quick example text to build on the card title and make
+											up the bulk of the card's content.</p>
+									</div>
+								</div>
+								
+								<!-- Add more cards as needed -->
+							</div>
+						</div>
+						<!-- You can add more carousel items here if needed -->
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
